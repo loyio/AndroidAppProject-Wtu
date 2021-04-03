@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RegisterTable</string>
+    <string name="passwdtxt">密码</string>
+    <string name="usernametxt">用户名</string>
+    <string name="passwdagaintxt">确认密码</string>
+    <string name="sextxt">性别</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="jobtxt">职业</string>
+    <string name="jobprompt">请选择你的职业</string>
+    <string-array name="jobs">
+        <item>会计</item>
+        <item>程序员</item>
+        <item>老师</item>
+        <item>建筑师</item>
+    </string-array>
+    <string name="interesttxt">兴趣</string>
+</resources>

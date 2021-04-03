@@ -1,0 +1,2 @@
+rootProject.name = "RegisterTable"
+include ':app'
