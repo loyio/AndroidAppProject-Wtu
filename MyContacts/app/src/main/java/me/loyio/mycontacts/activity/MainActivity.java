@@ -1,6 +1,8 @@
 package me.loyio.mycontacts.activity;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
 import android.Manifest;
 import android.content.Context;
@@ -63,8 +65,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
                 mcurrentCursor = (Cursor) adapterView.getItemAtPosition(i);
-                return false;/
-
+                return false;
             }
         });
     }

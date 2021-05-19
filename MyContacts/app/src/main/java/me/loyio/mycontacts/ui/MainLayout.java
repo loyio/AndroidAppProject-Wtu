@@ -5,6 +5,8 @@ import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.widget.LinearLayout;
 
+import me.loyio.mycontacts.R;
+
 public class MainLayout extends LinearLayout {
     public MainLayout(Context context, AttributeSet attrs) {
         super(context,attrs);

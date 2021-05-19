@@ -4,6 +4,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.SystemClock;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import me.loyio.mycontacts.utils.ThreadUtils;
+import me.loyio.mycontacts.activity.LoginActivity;
+
 public class SplashActivity extends AppCompatActivity {
 
     @Override
@@ -13,7 +18,7 @@ public class SplashActivity extends AppCompatActivity {
         ThreadUtils.runInThread(new Runnable() {
             @Override
             public void run() {
-                SystemClock.sleep(3000);
+                SystemClock.sleep(2000);
                 Intent intent=new Intent(SplashActivity.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
